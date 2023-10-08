@@ -1,0 +1,99 @@
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    width: 1200px;
+    height: 560px;
+    background-image: linear-gradient(rgba(100, 0, 0, 0.901), rgba(80, 0, 0, 0.211)), url(images/lion.jpg);
+    background-size: cover;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+
+#calculator {
+    width: 320px;
+    height: 520px;
+    background-color: #ffffff66;
+    margin: 20px auto;
+    border-radius: 8px;
+    top: 20px;
+    position: relative;
+}
+
+#result {
+    height: 120px;
+}
+
+#keyboard {
+    height: 400px;
+}
+
+#history {
+    height: 20px;
+    text-align: right;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+#output {
+    height: 60px;
+    text-align: right;
+    margin: 10px 20px;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.operator,
+.number,
+.empty {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border: 0;
+    color:rgb(5, 5, 37);
+}
+
+.number,
+.empty {
+    background-color: #ffffff00;
+}
+
+.operator,
+.number {
+    cursor: pointer;
+}
+
+.operator:active,
+.number:active {
+    font-size: 20px;
+}
+
+button:nth-child(4) {
+    font-size: 22px;
+    background-color: #ff4;
+}
+
+button:nth-child(12) {
+    font-size: 22px;
+    background-color: #bbccee;
+}
+
+button:nth-child(16) {
+    font-size: 22px;
+    background-color: #ff00a6;
+}
+
+button:nth-child(20) {
+    font-size: 22px;
+    background-color: rgb(233, 42, 17);
+}
+
+button:nth-child(8) {
+    font-size: 22px;
+    background-color: #cc9;
+}
